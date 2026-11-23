@@ -57,7 +57,7 @@ export default function App() {
             <PackChips value={pack} onChange={setPack} />
             <div className="hero-cta">
               <button className="btn" onClick={() => setOpen(true)}>اطلبي الباك — {fmt(PRICE)}</button>
-              <span className="note">الدفع عند الاستلام · التوصيل مجاني</span>
+              <span className="note">الدفع قبل الاستلام · التوصيل مجاني</span>
             </div>
           </div>
           <div className="arch"><img key={pack} src={`/img/${p.box}`} alt={p.label} /></div>
