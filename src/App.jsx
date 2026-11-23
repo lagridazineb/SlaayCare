@@ -53,7 +53,7 @@ export default function App() {
           <div className="hero-text">
             <p className="kicker">العناية بالشعر</p>
             <h1>روتين العناية الكامل، في علبة واحدة.</h1>
-            <p className="lead">قبعة ساتان، أمشاط، منشفة وأداة التطبيق: كل ما تحتاجينه لشعر ناعم، سهل التسريح ومحمي.</p>
+            <p className="lead">قبعة ساتان، أمشاط، منشفة وأداة التطبيق: كل ما تحتاجينه لشعر ناعم، سهل التسريح ومحمي مع ربطة الشعر هدية.</p>
             <PackChips value={pack} onChange={setPack} />
             <div className="hero-cta">
               <button className="btn" onClick={() => setOpen(true)}>اطلبي الباك — {fmt(PRICE)}</button>
