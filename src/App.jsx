@@ -135,7 +135,7 @@ function Order({ pack, setPack, onClose }) {
           <div className="tot"><dt>المجموع</dt><dd>{fmt(total)}</dd></div>
         </dl>
         <button className="btn full" type="submit">تأكيد الطلب</button>
-        <p className="note c">الدفع عند الاستلام. يُرسل طلبك عبر واتساب.</p>
+        <p className="note c">الدفع قبل الاستلام. يُرسل طلبك عبر واتساب.</p>
       </form>
     </div>
   )
